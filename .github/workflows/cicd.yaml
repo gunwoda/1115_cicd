@@ -25,6 +25,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Build with Gradle
+        uses: gradle/gradle-build-action@v2.6.0
+        with:
+          argument: build
 
       #AWS에 로그인
       - name: AWS Credentials
