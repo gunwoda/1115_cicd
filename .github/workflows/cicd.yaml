@@ -31,7 +31,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::872515296683:role/apiserverrole
-          role-session-name: sampleSessionName
+          role-session-name: sampleSessionNamex
           aws-region: ap-northeast-2
 
       #ECR에 로그인
